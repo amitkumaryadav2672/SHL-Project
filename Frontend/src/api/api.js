@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:8000/api", // backend URL
+  baseURL: "https://shl-project-d9gt.onrender.com/api", // backend URL
 });
 
 export const fetchRecommendations = (query) =>
